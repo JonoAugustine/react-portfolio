@@ -246,11 +246,13 @@ nav.navbar {
 }
 
 .page {
-  display: grid;
-  grid-template-columns: repeat();
-
   .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     scrollbar-width: none;
+
     div.card {
       background-color: lighten(color(base), 3%);
       margin: $margin;

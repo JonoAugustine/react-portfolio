@@ -1,4 +1,12 @@
 import StrifeLogo from "./images/strife-logo.png";
+import OTMLogo from "./images/otm_logo.png";
+import OTMGif from "./images/otm.gif";
+import Pysduc from "./images/psyduck_purple.png";
+import AmproLogo from "./images/logo.jpg";
+import AmproPng from "./images/ampro_yt.png";
+import OuchPng from "./images/ouch.png";
+import OuchGif from "./images/ouch.gif";
+import EvoEmu from "./images/EvoEmuSub.png";
 
 export class Project {
   constructor(name, live, source, description, imageName, invert, screenshot) {
@@ -29,9 +37,9 @@ export const projects = [
     It provides the ability to search items on restaurant menus to determine if they contain
     potential allergens which the user defines. 
     `,
-    "otm_logo.png",
+    OTMLogo,
     true,
-    "otm.gif"
+    OTMGif
   ),
   new Project(
     "Team Magma PRO",
@@ -43,7 +51,7 @@ export const projects = [
       users with a clean and intuitive web app to find the items 
       and pokemon they need.
     `,
-    "psyduck_purple.png"
+    Pysduc
   ),
   new Project(
     "Aquatic Mastery",
@@ -51,9 +59,9 @@ export const projects = [
     null,
     `A YouTube channel centered around sharing my experiences as an
     aquarist and showing others how to achieve success in their own aquariums.`,
-    "logo.jpg",
+    AmproLogo,
     false,
-    "ampro_yt.png"
+    AmproPng
   ),
   new Project(
     "Ouch",
@@ -63,16 +71,16 @@ export const projects = [
     A web app built like a simulation where you and your friends can exist in an Existence together.
     In an Existence you can chat to each other and perform fun commands.
     `,
-    "ouch.png",
+    OuchPng,
     false,
-    "ouch.gif"
+    OuchGif
   ),
   new Project(
     "Evolution Emulator",
     null,
     "https://github.com/JonoAugustine/Evolution-Emulator",
     "A basic attempt at emulating Earthen evolution with OOP.",
-    "EvoEmuSub.png",
+    EvoEmu,
     true
   ),
   new Project(
